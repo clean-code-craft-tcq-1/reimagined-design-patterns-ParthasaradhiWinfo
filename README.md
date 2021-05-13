@@ -11,7 +11,7 @@ Give a summary description of Four design patterns that you choose from the foll
 
 # Adapter Pattern:-
 Adapter pattern works as a bridge between two incompatible interfaces. This design pattern comes under structural design pattern.This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces.
-## Eample:-
+## Example:-
 - Type C port to Universal port converter 
 
 ## Advantages:-
@@ -25,7 +25,7 @@ Adapter pattern works as a bridge between two incompatible interfaces. This desi
 # Builder Pattern:-
 Builder pattern builds a complex object using simple objects and using a step by step approach. This design pattern comes under creational design pattern. It is mostly used when object can't be created in single step like in the de-serialization of a complex object
 
-## Eample:
+## Example:
 - Construction of house with foundation, pillars, build walls, door, windows.
 
 ## Advantages:-
@@ -49,13 +49,13 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 - Centralizes the control.
 
 ## Disadvantage:-
-- Centralizes control. The mediator pattern trades complexity of interaction for complexity in the mediator. Because a mediator encapsulates protocols, it can become more complex than any individual colleague. This can make the mediator itself a monolith that’s hard to maintain.
+- Centralizes control. The mediator pattern trades complexity of interaction for complexity in the mediator. Because a mediator encapsulates protocols, it can become more complex than any individual colleague. This can make the mediator itself a monolith thatâ€™s hard to maintain.
 
 # Decorator pattern
 Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
 ## Example:-
-- Wearing clothes is an example of using decorators. When you’re cold, you wrap yourself in a sweater. If you’re still cold with a sweater, you can wear a jacket on top. If it’s raining, you can put on a raincoat.
+- Wearing clothes is an example of using decorators. When youâ€™re cold, you wrap yourself in a sweater. If youâ€™re still cold with a sweater, you can wear a jacket on top. If itâ€™s raining, you can put on a raincoat.
 
 ## Advantages:-
 - Provides greater flexibility than static inheritance.
