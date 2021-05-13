@@ -11,8 +11,11 @@ Give a summary description of Four design patterns that you choose from the foll
 
 # Adapter Pattern
 Adapter pattern works as a bridge between two incompatible interfaces. This design pattern comes under structural design pattern.This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces.
+
 ## Example
 - Type C port to Universal port converter 
+- Using incompatible interface in existing class.
+
 
 ## Advantages
 - Achieve reusability and flexibility.
@@ -27,6 +30,7 @@ Builder pattern builds a complex object using simple objects and using a step by
 
 ## Example
 - Construction of house with foundation, pillars, build walls, door, windows.
+- Building de-serialization object with part if it to big.
 
 ## Advantages
 - Provides clear separation between the construction and representation of an object.
@@ -55,7 +59,7 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
 ## Example
-- Wearing clothes is an example of using decorators. When you’re cold, you wrap yourself in a sweater. If you’re still cold with a sweater, you can wear a jacket on top. If it’s raining, you can put on a raincoat.
+- Add responsibilities to an object that you may want to change in future.
 
 ## Advantages
 - Provides greater flexibility than static inheritance.
